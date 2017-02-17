@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kevin Frank</title>
+
+
+
+
+</head>
+<body>
+
+
+<div id="inline" style="cursor: pointer"><h1>Hello</h1></div>
+    <div id="loaded"style="cursor: pointer">Hello World</div>
+
+    <script>
+        var inlineDiv = document.getElementById('inline');
+
+        inlineDiv.onclick = function () {
+            inlineDiv.style.cursor = 'pointer';
+            inlineDiv.style.color = 'aqua';
+            inlineDiv.innerText = 'Just changed it';
+        };
+    </script>
+
+<script type="text/javascript" src="practice.js"></script>
+</body>
+</html>
